@@ -17,10 +17,10 @@ import os
 
 with open('.env', 'w') as f:
     f.write("""
-GOOGLE_API_KEY = AIzaSyAdpR0-gKpDvWTjvFh5jVP4ByXb7BsBTiY
-ANTHROPIC_API_KEY = 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
-MISTRALAI_KEY = GoH2Ov7VZXWumwg0awKTDdCyJzeyThcW
-GROQ_API_KEY = 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
+GOOGLE_API_KEY = "google_api_key"
+ANTHROPIC_API_KEY = "anthropic_api_key"
+MISTRALAI_KEY = "mistralali_api_key"
+GROQ_API_KEY = "groq_api_key"
     """)
 
 load_dotenv()
